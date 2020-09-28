@@ -1,0 +1,26 @@
+body{
+	background-color: aliceblue;
+}
+h1{
+font-size: 30 px; 
+color: firebrick;
+}
+h2{
+font-size: 25px;
+color: cadetblue;
+}
+
+.big{ 
+font-size: 60px 
+}
+.uppercase{
+text-transform: uppercase;
+}
+
+.big.uppercase{
+color: navy;
+}
+
+h1 span{
+color: violet; 
+}
