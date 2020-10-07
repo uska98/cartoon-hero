@@ -1,0 +1,42 @@
+/*header css*/
+header{
+	background-color: #361032;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0px;
+}
+h1{
+	font-family: 'Mansalva', cursive;
+	font-size: xxx-large;
+	color: firebrick;
+	}
+header img{
+	border-radius: 300px;
+	border: 10px solid #600b28;
+}
+/*body css*/
+body{
+	background-color: #8c2650;
+}
+h2{
+	font-family: 'Mansalva', cursive;
+	font-size: large;
+	color: cadetblue;
+	}
+p{
+	font-family: 'Neucha', serif;
+	font-size: medium;
+}
+main img{
+	max-width: 100%;
+}
+
+/*footer css*/
+footer{
+	background-color: #361032;
+	text-align: center;
+}
+footer p{
+	color: white;
+}
