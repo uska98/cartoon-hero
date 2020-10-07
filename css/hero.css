@@ -8,20 +8,24 @@ header{
 }
 h1{
 	font-family: 'Mansalva', cursive;
-	font-size: xxx-large;
+	font-size: 100px;
 	color: firebrick;
+	border-top-width: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
 	}
 header img{
 	border-radius: 300px;
-	border: 10px solid #600b28;
+	border: 4px solid #600b28;
 }
 /*body css*/
 body{
 	background-color: #8c2650;
+	margin: 0px;
 }
 h2{
 	font-family: 'Mansalva', cursive;
-	font-size: large;
+	font-size: 50px;
 	color: cadetblue;
 	}
 p{
@@ -31,7 +35,10 @@ p{
 main img{
 	max-width: 100%;
 }
-
+main{
+	margin: 0 auto;
+	padding: 5px 50px;
+}
 /*footer css*/
 footer{
 	background-color: #361032;
