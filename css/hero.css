@@ -8,7 +8,7 @@ header{
 }
 h1{
 	font-family: 'Mansalva', cursive;
-	font-size: 100px;
+	font-size: 135px;
 	color: firebrick;
 	border-top-width: 0px;
     margin-top: 0px;
@@ -25,12 +25,26 @@ body{
 }
 h2{
 	font-family: 'Mansalva', cursive;
-	font-size: 50px;
+	font-size: 75px;
 	color: cadetblue;
+	text-align: center;
 	}
+h3{
+	font-family: 'Mansalva', cursive;
+	font-size: 75px;
+	color: cadetblue;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+h4{
+	font-family: 'Mansalva', cursive;
+	font-size: 75px;
+	color: cadetblue;
+}
 p{
 	font-family: 'Neucha', serif;
-	font-size: medium;
+	font-size: 25px;
+	text-align: center;
 }
 main img{
 	max-width: 100%;
@@ -38,6 +52,25 @@ main img{
 main{
 	margin: 0 auto;
 	padding: 5px 50px;
+}
+.column {
+	float: left;
+	left: 35%;
+	right: 65%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*lists*/
+ol{
+	font-family: 'Neucha', serif;
+	font-size: 25px;
+}
+ul{
+	font-family: 'Neucha', serif;
+	font-size: 25px;
 }
 /*footer css*/
 footer{
